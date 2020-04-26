@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Genom</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #714CE8;
+            font-family: 'Lato', sans-serif;
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .big-container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 0px 0px 60px -44px rgba(0, 0, 0, 0.75);
+            padding: 100px;
+        }
+
+        .item {
+            color: white;
+            align-self: center;
+        }
+
+        .flipped {
+            position: absolute;
+            left: -30px;
+            top: 37px;
+            transform: rotate(-90deg);
+            ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+        }
+
+        .cod {
+            position: absolute;
+            left: 50px;
+            top: -10px;
+        }
+
+        .item-foto {
+            size: 60px;
+            opacity: 0.7;
+            transition: 0.2s;
+        }
+
+        .item-foto:hover {
+            border-radius: 50%;
+            animation-duration: 3s;
+            opacity: 5;
+        }
+    </style>
+
+<link rel="icon" href="logo.png" type="image/icon type">
+
+</head>
+
+<body>
+    <div class="big-container">
+        <div class="item">
+            <h1 class="cod">CODE</h1>
+        </div>
+        <div class="item">
+            <h1 class="flipped">GENOM</h1>
+        </div>
+        <div class="item">
+            <h1 style="font-size: 50px;">🔨</h1>
+        </div>
+        <div class="container">
+            <div class="item">
+                <h1 style="font-size: 50px;">Hi, We're working on this website now!</h1>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="item">
+                <h1 style="font-weight: 300;">Questions? Contact us at support@genomcode.com</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div style="margin: 20px;" class="item-foto">
+            <a href="https://www.genomcode.com"><img class="foto" style="width: 50px; height: 50px; position: absolute;
+                bottom: 50px; " src="logo.png" alt="genom logo"></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
